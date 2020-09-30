@@ -11,12 +11,12 @@ Features
 * Blog support.
 * Markdown support.
 * Javascript/CSS minify.
-* YAML metadata.
+* YAML Metadata.
 * Mustache templates.
 * Various small utilities.
 
-Concepts
-----
+Concepts:-
+------
 
 * Templates: HTML templates are style files for your website. They are
   incomplete HTML files with placeholders for content, partials and other stuff.
@@ -30,7 +30,7 @@ Concepts
     - `build_time_iso`: ISO format of `build_time`.
     - `blog`: Special entry for blog pages.
 
-Documentation
+Documentation:-
 ----
 
 To use SwBuilder, install the following dependencies first:
@@ -49,7 +49,7 @@ To use SwBuilder, install the following dependencies first:
 
 Not all the dependencies are required, it depends on what feature you use.
 
-### Getting Started
+### Getting Started:-
 
 1. Put the SConstruct file in the directory of your website sources.
    The output files will be generated in the `deploy` folder, and temporary files in the `temp` folder.
@@ -205,7 +205,7 @@ Use HTML comments to create math formulas:
     <!-- math: latex_code -->: in a $ ... $ environment.
     <!-- lmath: latex_code --> : in a displaymath environment.
 
-License
+License:-
 ----
 
     Copyright (c) 2012-2014, Donghao Ren
