@@ -1,4 +1,4 @@
-SwBuilder - Static Website Builder
+The SwBuilder - Static Website Builder
 ====
 
 SwBuilder (Static Website Builder) is a SConstruct script to build static webpages from page contents, partials and templates.
@@ -15,7 +15,7 @@ Features
 * Mustache templates.
 * Various small utilities.
 
-Concepts
+Concepts of SW builder
 ----
 
 * Templates: HTML templates are style files for your website. They are
