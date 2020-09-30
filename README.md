@@ -1,4 +1,4 @@
-SwBuilder - Static Website Builder
+SwBuilder - Static Website Let's Build it! 
 ====
 
 SwBuilder (Static Website Builder) is a SConstruct script to build static webpages from page contents, partials and templates.
@@ -18,8 +18,7 @@ Features
 Concepts
 ----
 
-* Templates: HTML templates are style files for your website. They are
-  incomplete HTML files with placeholders for content, partials and other stuff.
+* Templates: A website template is a pre-built website composed of HTML pages that include integrated images, text content and support files for font styles and Javascripts.They are incomplete HTML files with placeholders for content, partials and other stuff.
     - File extension: `.template` or `.blog_template`.
     - Place content: `{{content}}`.
     - Place partials: `{{partial: partial_name}}`.
