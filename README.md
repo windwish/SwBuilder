@@ -133,7 +133,7 @@ Define a page:
     Page("target.html", "source.md", "mytemplate.template")
     Page("target.html", "source.html", "mytemplate.template", title = "mytitle")
 
-Define an image or a binary file:
+Define an image or a binary files:
 
     Image("target.png", "source.png")
     Binary("target.png", "source.png")
@@ -162,7 +162,7 @@ Call BlogTags to load the yaml:
 
     BlogTags("blog/tags.yaml")
 
-Then call BlogPost to add blog posts:
+Then call BlogPost to add blog post:
 
     BlogPost("blog/article.md")
     # Use FindFiles to add all matched files conveniently.
@@ -186,7 +186,7 @@ Call BlogFinalize when all the article files are added.
 
     BlogFinalize()
 
-Finally, generate articles and lists:
+Finally, generate articles and list:
 
     # Generate articles with given template:
     BlogGenerateArticles("template.blog_template")
@@ -198,7 +198,7 @@ Finally, generate articles and lists:
 
 ### Math Support
 
-Use HTML comments to create math formulas:
+Use HTML comments to create math formulaes:
 
 <div data-hljs-lang="none"></div>
 
