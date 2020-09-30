@@ -3,7 +3,7 @@ SwBuilder - Static Website Builder
 
 SwBuilder (Static Website Builder) is a SConstruct script to build static webpages from page contents, partials and templates.
 It works mainly by substituting page contents and partials into templates,
-so you don't need to update every page when you modify your template or partials.
+so you don't have to update every page when you are modifing your template or partials.
 
 Features
 ----
@@ -47,7 +47,7 @@ To use SwBuilder, install the following dependencies first:
   * multimarkdown: Markdown rendering.
   * uglifyjs, cleancss: JS/CSS minification.
 
-Not all the dependencies are required, it depends on what feature you use.
+Not all the dependencies are required, it depends on what feature you want to use.
 
 ### Getting Started
 
