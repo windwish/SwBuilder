@@ -12,7 +12,7 @@ Features
 * Markdown support.
 * Javascript/CSS minify.
 * YAML metadata.
-* Mustache templates.
+* Mustache Jatt boy
 * Various small utilities.
 
 Concepts
