@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+#amaaing Product
 # Static Website Builder
 # A simple and lightweight static website building script based on SCons.
 # Author: Donghao Ren
