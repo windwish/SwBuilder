@@ -1,7 +1,7 @@
-SwBuilder - Static Website Builder
+SW-Builder : Static Website Builder
 ====
 
-SwBuilder (Static Website Builder) is a SConstruct script to build static webpages from page contents, partials and templates.
+SW-Builder (Static Website Builder) is a SConstruct script to build static webpages from page contents, partials and templates.
 It works mainly by substituting page contents and partials into templates,
 so you don't need to update every page when you modify your template or partials.
 
@@ -33,7 +33,7 @@ Concepts
 Documentation
 ----
 
-To use SwBuilder, install the following dependencies first:
+To use SW-Builder, install the following dependencies first:
 
 * SCons
 * Python Modules:
@@ -115,10 +115,10 @@ the actual path (relative to current page) in the build process. For example, `{
 
 ### SConstruct
 
-First you should import SwBuilder. Copy `site_scons` to your project,
+First you should import SW-Builder. Copy `site_scons` to your project,
 and write the following code at the beginning of your SConstruct.
 
-    from SwBuilder import *
+    from SW-Builder import *
 
 Note that the targets files are relative to the `deploy` folder.
 
