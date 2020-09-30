@@ -18,12 +18,12 @@ Features
 Concepts
 ----
 
-* Templates: HTML templates are style files for your website. They are
-  incomplete HTML files with placeholders for content, partials and other stuff.
+* Templates: HTML templates are style files for your website. 
+  They are incomplete HTML files with placeholders for content, partials and other stuff.
     - File extension: `.template` or `.blog_template`.
     - Place content: `{{content}}`.
     - Place partials: `{{partial: partial_name}}`.
-* Partials: Contents that are common to many pages, for example sidebars, menus.
+* Partials: Contents that are common to many pages, for example sidebars and menus.
 * Metadata: Key-Value pairs (nesting is allowed) of strings.
   Including global metadata and per-page metadata. User defined metadata are allowed. For example:
     - `build_time`: Time the build script run.
@@ -57,7 +57,7 @@ Not all the dependencies are required, it depends on what feature you use.
 2. Create templates along with CSS files and Javascript files.
 
 3. Write the `SConstruct` file to define your webpages.
-   Remember that this is a python file, so feel free to use other python expressions to ease your configuration.
+   Remember that this is a python file, so feel free to use other python expressions to ease your configurations.
 
 4. Run `scons` to build your website.
 
@@ -107,7 +107,7 @@ For example a html file:
     <!-- Use {{js: path}} to include Javascript -->
     <script type="text/javascript" src="{{js: script.js}}"></script>
 
-Use `<!--{ yaml contents }-->` to define YAML metadata for the page, it can be referred from the page or the templates.
+Use `<!--{ yaml contents }-->` to define the YAML metadata for the page, it can be referred from the page or the templates.
 
 If your website is not directly under a domain, it's difficult to reference pages from a template.
 Static Website Builder provides a useful `{{ref: path}}` directive, as well as `{{js: path}}`, they will be replaced with
@@ -138,7 +138,7 @@ Define an image or a binary file:
     Image("target.png", "source.png")
     Binary("target.png", "source.png")
 
-Use TargetList and Find to defined targets by wildcard matching.
+Use TargetList and Find to defined targets by wildcard matching:
 
     TargetList(Image, "images", Find("*.jpg", "images"))
 
@@ -182,7 +182,7 @@ Next, you may add images for blog:
     TargetList(Image, "blog/images", Find("*.jpg", "blog/images"))
     TargetList(Image, "blog/images", Find("*.png", "blog/images"))
 
-Call BlogFinalize when all the article files are added.
+Call BlogFinalize when all the article files are added:
 
     BlogFinalize()
 
