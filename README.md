@@ -49,7 +49,7 @@ To use SwBuilder, install the following dependencies first:
 
 Not all the dependencies are required, it depends on what feature you use.
 
-### Getting Started
+### Getting Started with SwBuilder
 
 1. Put the SConstruct file in the directory of your website sources.
    The output files will be generated in the `deploy` folder, and temporary files in the `temp` folder.
