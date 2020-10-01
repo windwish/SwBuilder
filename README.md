@@ -1,11 +1,11 @@
-SwBuilder - Static Website Builder
+SwBuilder :- Static Website Builder
 ====
 
 SwBuilder (Static Website Builder) is a SConstruct script to build static webpages from page contents, partials and templates.
 It works mainly by substituting page contents and partials into templates,
 so you don't need to update every page when you modify your template or partials.
 
-Features
+Features:
 ----
 
 * Blog support.
@@ -15,7 +15,7 @@ Features
 * Mustache templates.
 * Various small utilities.
 
-Concepts
+Concepts:
 ----
 
 * Templates: HTML templates are style files for your website. They are
@@ -30,7 +30,7 @@ Concepts
     - `build_time_iso`: ISO format of `build_time`.
     - `blog`: Special entry for blog pages.
 
-Documentation
+Documentation:
 ----
 
 To use SwBuilder, install the following dependencies first:
@@ -61,7 +61,7 @@ Not all the dependencies are required, it depends on what feature you use.
 
 4. Run `scons` to build your website.
 
-### Creating Templates
+### Creating Templates:
 
 A template is just a text file with extension `template` or `blog_template`.
 You need to define the place to put page content by writing `{{content}}` in the template.
@@ -83,7 +83,7 @@ For example:
 
 Each page has its contents and metadata, you can use `{{key}}` to refer them in your template or pages.
 
-### Creating Pages
+### Creating Pages:
 
 A page can be defined by a html file or a markdown file.
 
@@ -113,7 +113,7 @@ If your website is not directly under a domain, it's difficult to reference page
 Static Website Builder provides a useful `{{ref: path}}` directive, as well as `{{js: path}}`, they will be replaced with
 the actual path (relative to current page) in the build process. For example, `{{ref: a.html}}` will be replaced as `a.html` in `b.html`, but `../a.html` in `folder/b.html`.
 
-### SConstruct
+### SConstruct:
 
 First you should import SwBuilder. Copy `site_scons` to your project,
 and write the following code at the beginning of your SConstruct.
@@ -147,7 +147,7 @@ Define a concatenated and minified Javascript/CSS file:
     Javascript("target.js", ["source1.js", "source2.js"])
     CSS("target.css", ["source1.css", "source2.css"])
 
-### Blog Support
+### Blog Support:
 
 To define blog posts, first call BlogInit:
 
@@ -196,16 +196,16 @@ Finally, generate articles and lists:
     BlogGenerateList("blog/index.html", "template.blog_template")
     BlogGenerateTags("blog/index.html", "template.blog_template")
 
-### Math Support
+### Math Support:
 
-Use HTML comments to create math formulas:
+Use HTML comments to create math formulas:-
 
 <div data-hljs-lang="none"></div>
 
     <!-- math: latex_code -->: in a $ ... $ environment.
     <!-- lmath: latex_code --> : in a displaymath environment.
 
-License
+License:
 ----
 
     Copyright (c) 2012-2014, Donghao Ren
