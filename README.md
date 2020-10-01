@@ -33,7 +33,7 @@ Concepts
 Documentation
 ----
 
-To use SwBuilder, install the following dependencies first:
+To use SwBuilder, install the following dependencies first :
 
 * SCons
 * Python Modules:
