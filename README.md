@@ -15,7 +15,7 @@ Features
 * Mustache templates.
 * Various small utilities.
 
-Concepts
+Concepts --That Will Enhance Your Knowledge
 ----
 
 * Templates: HTML templates are style files for your website. They are
