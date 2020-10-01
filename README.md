@@ -81,7 +81,7 @@ For example:
     </body>
     </html>
 
-Each page has its contents and metadata, you can use `{{key}}` to refer them in your template or pages.
+Each page has its contents and metadata so you can use `{{key}}` to refer them in your template or pages.
 
 ### Creating Pages
 
@@ -115,7 +115,7 @@ the actual path (relative to current page) in the build process. For example, `{
 
 ### SConstruct
 
-First you should import SwBuilder. Copy `site_scons` to your project,
+First you should import SwBuilder ,Copy `site_scons` to your project,
 and write the following code at the beginning of your SConstruct.
 
     from SwBuilder import *
