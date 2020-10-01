@@ -66,7 +66,7 @@ Not all the dependencies are required, it depends on what feature you use.
 A template is just a text file with extension `template` or `blog_template`.
 You need to define the place to put page content by writing `{{content}}` in the template.
 
-For example:
+For example:   // php : it can be used to hide the code from the user
 
     <!DOCTYPE html>
     <html>
@@ -87,7 +87,7 @@ Each page has its contents and metadata, you can use `{{key}}` to refer them in 
 
 A page can be defined by a html file or a markdown file.
 
-For example a html file:
+For example a html file:   // using php
 
     <!--{
     title: Page Title
