@@ -9,7 +9,7 @@ Features
 ----
 
 * Blog support.
-* Markdown support.
+* Allowance support.
 * Javascript/CSS minify.
 * YAML metadata.
 * Mustache templates.
