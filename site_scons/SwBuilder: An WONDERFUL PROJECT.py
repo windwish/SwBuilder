@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Static Website Builder
+# Static Website Builder: An Wonderful Project
 # A simple and lightweight static website building script based on SCons.
 # Author: Donghao Ren
 #
