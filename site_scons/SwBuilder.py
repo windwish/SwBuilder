@@ -1100,7 +1100,7 @@ def LaTeXPNGDataURL(latex_input, env):
         copyfile(png_file, png_output)
         return get_png_dataurl(png_output)
     else:
-        raise Exception("LaTeX Failed!")
+        raise Exception("Latex Failed please retry!")
 
 from iconfont import CreateIconFont
 
