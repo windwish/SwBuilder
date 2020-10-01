@@ -14,6 +14,8 @@ Features
 * YAML metadata.
 * Mustache templates.
 * Various small utilities.
+* 24/7 Support.
+* Creating unique and easy to use Website. 
 
 Concepts
 ----
