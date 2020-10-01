@@ -18,17 +18,17 @@ Features
 Concepts
 ----
 
-* Templates: HTML templates are style files for your website. They are
+* Templates:- HTML templates are style files for your website. They are
   incomplete HTML files with placeholders for content, partials and other stuff.
-    - File extension: `.template` or `.blog_template`.
-    - Place content: `{{content}}`.
-    - Place partials: `{{partial: partial_name}}`.
-* Partials: Contents that are common to many pages, for example sidebars, menus.
-* Metadata: Key-Value pairs (nesting is allowed) of strings.
+    - File extension:- `.template` or `.blog_template`.
+    - Place content:- `{{content}}`.
+    - Place partials:- `{{partial: partial_name}}`.
+* Partials:- Contents that are common to many pages, for example sidebars, menus.
+* Metadata:- Key-Value pairs (nesting is allowed) of strings.
   Including global metadata and per-page metadata. User defined metadata are allowed. For example:
-    - `build_time`: Time the build script run.
-    - `build_time_iso`: ISO format of `build_time`.
-    - `blog`: Special entry for blog pages.
+    - `build_time`:- Time the build script run.
+    - `build_time_iso`:- ISO format of `build_time`.
+    - `blog`:- Special entry for blog pages.
 
 Documentation
 ----
