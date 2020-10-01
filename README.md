@@ -1,4 +1,5 @@
 SwBuilder - Static Website Builder
+Make Amazing Blog !!
 ====
 
 SwBuilder (Static Website Builder) is a SConstruct script to build static webpages from page contents, partials and templates.
