@@ -198,7 +198,7 @@ Finally, generate articles and lists:
 
 ### Math Support
 
-Use HTML comments to create math formulas:
+Use HTML comments to create math formulas:-
 
 <div data-hljs-lang="none"></div>
 
