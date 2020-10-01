@@ -5,7 +5,7 @@ SwBuilder (Static Website Builder) is a SConstruct script to build static webpag
 It works mainly by substituting page contents and partials into templates,
 so you don't need to update every page when you modify your template or partials.
 
-Features
+An Amazing Features
 ----
 
 * Blog support.
@@ -198,14 +198,14 @@ Finally, generate articles and lists:
 
 ### Math Support
 
-Use HTML comments to create math formulas:
+Use HTML comments to create math Formulas:
 
 <div data-hljs-lang="none"></div>
 
     <!-- math: latex_code -->: in a $ ... $ environment.
     <!-- lmath: latex_code --> : in a displaymath environment.
 
-License
+Our License
 ----
 
     Copyright (c) 2012-2014, Donghao Ren
