@@ -47,7 +47,7 @@ To use SwBuilder, install the following dependencies first:
   * multimarkdown: Markdown rendering.
   * uglifyjs, cleancss: JS/CSS minification.
 
-Not all the dependencies are required, it depends on what feature you use.
+Not all the dependencies are required, it's only depends on what feature you use.
 
 ### Getting Started
 
