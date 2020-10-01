@@ -29,10 +29,15 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+
+#importing the library
+
 import fontforge
 import os
 import base64
 import json
+
+#creating icon font
 
 def CreateIconFont(name, files, target):
     font = fontforge.font()
@@ -44,6 +49,8 @@ def CreateIconFont(name, files, target):
     char = 0xE000
 
     mapping = { }
+    
+    #managing scalar vector grapics
 
     for svg in files:
         if os.path.splitext(svg)[1] == ".svg":
@@ -105,6 +112,7 @@ def CreateIconFont(name, files, target):
      )
      for key in mapping
     ]) + "\n"
+    
 
     f_css = open(target, "w")
     f_css.write(css.encode("utf-8"))
