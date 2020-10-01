@@ -83,7 +83,7 @@ For example:
 
 Each page has its contents and metadata, you can use `{{key}}` to refer them in your template or pages.
 
-### Creating Pages
+### Creating All Pages
 
 A page can be defined by a html file or a markdown file.
 
