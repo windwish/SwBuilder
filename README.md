@@ -15,7 +15,7 @@ Features
 * Mustache templates.
 * Various small utilities.
 
-Concepts
+Amazing Concepts
 ----
 
 * Templates: HTML templates are style files for your website. They are
@@ -44,7 +44,7 @@ To use SwBuilder, install the following dependencies first:
 * Commandline Tools:
   * LaTeX: For LaTeX rendering support.
   * ImageMagick: For image manipulation.
-  * multimarkdown: Markdown rendering.
+  * Multimarkdown: Markdown rendering.
   * uglifyjs, cleancss: JS/CSS minification.
 
 Not all the dependencies are required, it depends on what feature you use.
