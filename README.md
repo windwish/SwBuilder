@@ -20,15 +20,15 @@ Concepts
 
 * Templates: HTML templates are style files for your website. They are
   incomplete HTML files with placeholders for content, partials and other stuff.
-    - File extension: `.template` or `.blog_template`.
-    - Place content: `{{content}}`.
-    - Place partials: `{{partial: partial_name}}`.
+    --> File extension: `.template` or `.blog_template`.
+    --> Place content: `{{content}}`.
+    --> Place partials: `{{partial: partial_name}}`.
 * Partials: Contents that are common to many pages, for example sidebars, menus.
 * Metadata: Key-Value pairs (nesting is allowed) of strings.
   Including global metadata and per-page metadata. User defined metadata are allowed. For example:
-    - `build_time`: Time the build script run.
-    - `build_time_iso`: ISO format of `build_time`.
-    - `blog`: Special entry for blog pages.
+    --> `build_time`: Time the build script run.
+    --> `build_time_iso`: ISO format of `build_time`.
+    --> `blog`: Special entry for blog pages.
 
 Documentation
 ----
@@ -66,7 +66,7 @@ Not all the dependencies are required, it depends on what feature you use.
 A template is just a text file with extension `template` or `blog_template`.
 You need to define the place to put page content by writing `{{content}}` in the template.
 
-For example:
+For example:   // php : it can be used to hide the code from the user
 
     <!DOCTYPE html>
     <html>
@@ -87,7 +87,7 @@ Each page has its contents and metadata, you can use `{{key}}` to refer them in 
 
 A page can be defined by a html file or a markdown file.
 
-For example a html file:
+For example a html file:   // using php
 
     <!--{
     title: Page Title
