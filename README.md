@@ -30,7 +30,7 @@ Concepts
     - `build_time_iso`: ISO format of `build_time`.
     - `blog`: Special entry for blog pages.
 
-Documentation
+Documentation........
 ----
 
 To use SwBuilder, install the following dependencies first:
