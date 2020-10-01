@@ -109,7 +109,7 @@ For example a html file:
 
 Use `<!--{ yaml contents }-->` to define YAML metadata for the page, it can be referred from the page or the templates.
 
-If your website is not directly under a domain, it's difficult to reference pages from a template.
+If your website is not directly under a domain, it is difficult to reference pages from a template.
 Static Website Builder provides a useful `{{ref: path}}` directive, as well as `{{js: path}}`, they will be replaced with
 the actual path (relative to current page) in the build process. For example, `{{ref: a.html}}` will be replaced as `a.html` in `b.html`, but `../a.html` in `folder/b.html`.
 
