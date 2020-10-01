@@ -1,4 +1,4 @@
-SwBuilder - Static Website Builder
+SwBuilder - log r md
 ====
 
 SwBuilder (Static Website Builder) is a SConstruct script to build static webpages from page contents, partials and templates.
