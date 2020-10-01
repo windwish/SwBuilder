@@ -61,7 +61,7 @@ Not all the dependencies are required, it depends on what feature you use.
 
 4. Run `scons` to build your website.
 
-### Creating Templates
+### Demo of creating template
 
 A template is just a text file with extension `template` or `blog_template`.
 You need to define the place to put page content by writing `{{content}}` in the template.
@@ -147,7 +147,7 @@ Define a concatenated and minified Javascript/CSS file:
     Javascript("target.js", ["source1.js", "source2.js"])
     CSS("target.css", ["source1.css", "source2.css"])
 
-### Blog Support
+### Blog Support-A great blog support
 
 To define blog posts, first call BlogInit:
 
