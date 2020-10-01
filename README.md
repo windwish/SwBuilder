@@ -205,7 +205,7 @@ Use HTML comments to create math Formulas:
     <!-- math: latex_code -->: in a $ ... $ environment.
     <!-- lmath: latex_code --> : in a displaymath environment.
 
-License
+Our License
 ----
 
     Copyright (c) 2012-2014, Donghao Ren
